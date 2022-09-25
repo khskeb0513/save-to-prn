@@ -3,8 +3,8 @@ import {writeFileSync, mkdirSync} from 'fs'
 import {resolve, join} from 'path'
 
 const printer = new Printer({
-    name: 'my-ipp-printer',
-    port: 2234
+    name: 'save-to-prn',
+    port: 3001
 })
 
 const outputDir = resolve('output/')
